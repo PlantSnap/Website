@@ -36,8 +36,8 @@
                 document.getElementById("button3").style.visibility="hidden"
             }
             function buyProduct() {
-                if (money >= Math.round((buyCount **2 + 24)/5)*5) {
-                    money -= Math.round((buyCount **2 + 24)/5)*5
+                if (money >= Math.round((buyCount **3 + 24)/5)*5) {
+                    money -= Math.round((buyCount **3 + 24)/5)*5
                     alert("Purchase Successful")
                     document.getElementById("moneyTracker").innerHTML = "Money: " + money;
                     buyCount++
